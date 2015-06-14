@@ -1,0 +1,32 @@
+body {
+	font-family: verdana;
+}
+
+#results li {
+	margin-bottom: 1em;
+}
+
+#results a {
+    color: black;
+    text-decoration: none;
+}
+
+#results a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#results img {
+    display: inline-block;
+}
+
+#results .description {
+    display: inline-block;
+    margin-left: 1em;
+    max-width: 80%;
+    vertical-align: top;
+}
+
+#error {
+	color: red;
+}
